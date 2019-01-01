@@ -1,3 +1,6 @@
+html{
+scroll-behavior: smooth;
+}
 .blured-background {
     /*filter: blur(1px);
   -webkit-filter: blur(1px);*/

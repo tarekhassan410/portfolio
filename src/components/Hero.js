@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./NavBar";
+import Typed from "react-typed";
+
 import "../App.css";
 
 const Hero = () => (
@@ -11,7 +13,9 @@ const Hero = () => (
       <div class="container has-text-primary">
         Hello! I am
         <h1 class="title is-1 has-text-primary">Tarek</h1>
-        <h2 class="subtitle is-3 has-text-primary">React JS Developer</h2>
+        <h2 class="subtitle is-3 has-text-danger">
+          <Typed strings={[ "React JS Developer", "Beside React I also work with Redux, Firebase, Bootstrap, Bulma and more"]} typeSpeed={20} backSpeed={40} loop />
+        </h2>
       </div>
     </div>
   </section>
