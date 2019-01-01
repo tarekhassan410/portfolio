@@ -19,3 +19,7 @@ scroll-behavior: smooth;
 .navbar-item:active {
   color: yellow;
 }
+
+.navbar-item, .navbar-link {
+  color: white !important
+}

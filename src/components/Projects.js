@@ -1,4 +1,5 @@
 import React from "react";
+import Project from './project'
 
 const Projects = () => (
   <section className="section" id="projects">
@@ -10,47 +11,16 @@ const Projects = () => (
       <div className="title is-3 has-text-centered has-text-weight-bold has-text-primary">
         Projects
       </div>
+      <div className="subtitle is-5 has-text-centered has-text-primary">
+        Projects I made with React and other tools I use in development 
+      </div>
 </section>
 <section className="section">
 
       <div className="columns">
-        <div className="column card is-offset-1 is-5 has-text-centered is-radiusless">
-          <div className="card-header">
-            <div className="card-header-title"> Coders cheat sheets </div>
-          </div>
-          <div className="card-image">
-            <figure class="image">
-              <img src="./images/chcoder.png" />
-            </figure>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
-            <a href="#">#responsive</a>
-            <br />
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-          </div>
-        </div>
-
-        {/* 2nd project */}
-        <div className="column card is-offset-1 is-5 has-text-centered is-radiusless">
-          <div className="card-header">
-            <div className="card-header-title"> News search engine </div>
-          </div>
-          <div className="card-image">
-            <figure class="image">
-              <img src="./images/newshub.png" />
-            </figure>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
-            <a href="#">#responsive</a>
-            <br />
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-          </div>
-        </div>
-
+       <Project title={'Cheating coder'} image_path={'./images/chcoder.png'} url="" description={'Cheating coder is your usual cheat sheets but with search feature to find what you look for faster'} />
+       <Project title={'NewsHub'} image_path={'./images/newshub.png'} url="" description={'News search engine based on Newsapi.org'} />
+       <Project title={'ToDo List'} image_path={'./images/todo.png'} url="" description={'Simple to do app to implement ES6 features'} />
       </div>
       </section>
     </div>
