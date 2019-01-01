@@ -5,7 +5,7 @@ import Typed from "react-typed";
 import "../App.css";
 
 const Hero = () => (
-  <section class="hero is-link is-fullheight is-fullheight-with-navbar is-bold blured-background">
+  <section class="hero is-large is-large-with-navbar is-bold blured-background">
     <div class="hero-head">
       <Navbar />
     </div>
