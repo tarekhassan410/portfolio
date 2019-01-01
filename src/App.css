@@ -2,11 +2,20 @@ html{
 scroll-behavior: smooth;
 }
 .blured-background {
-    /*filter: blur(1px);
+  /*filter: blur(1px);
   -webkit-filter: blur(1px);*/
-  background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1546084141-c5ec13eafdf1?ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80') no-repeat center center fixed;
+  background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1546084141-c5ec13eafdf1?ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80') no-repeat center center fixed;
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.navbar-item:hover{
+  background-color: white;
+  color: red;
+}
+
+.navbar-item:active {
+  color: yellow;
 }

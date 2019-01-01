@@ -4,9 +4,8 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-
-import Scrollspy from "react-scrollspy";
 import Slide from "react-reveal/Slide";
+
 import "./App.css";
 
 class App extends Component {
@@ -36,10 +35,7 @@ class App extends Component {
           <Contact />
         </Slide>
 
-        <Scrollspy
-          items={["about", "projects"]}
-          currentClassName="is-current"
-        />
+        
       </div>
     );
   }
