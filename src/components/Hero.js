@@ -7,7 +7,7 @@ const Hero = () => (
     <div class="hero-head">
       <Navbar />
     </div>
-    <div class="hero-body">
+    <div class="hero-body has-text-centered">
       <div class="container has-text-primary">
         Hello! I am
         <h1 class="title is-1 has-text-primary">Tarek</h1>

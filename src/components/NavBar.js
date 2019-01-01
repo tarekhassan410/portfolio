@@ -13,24 +13,15 @@ const NavBar = () => (
       </div>
     </div>
 
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div id="navbarExampleTransparentExample" class="is-centered navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="#about">
-          <span class="icon">
-            <i class="fas fa-info" />
-          </span>
-          <span>About</span>
+        <a class="navbar-item has-text-primary is-size-5 is-active" href="#about">
+          About
         </a>
-        <a class="navbar-item" href="#projects">
-          <span class="icon">
-            <i class="fas fa-file-alt" />
-          </span>
+        <a class="navbar-item has-text-primary is-size-5" href="#projects">
           <span>Projects</span>
         </a>
-        <a class="navbar-item" href="#contact">
-          <span class="icon">
-            <i class="fas fa-envelope" />
-          </span>
+        <a class="navbar-item has-text-primary is-size-5" href="#contact">
           <span>Contact</span>
         </a>
       </div>
