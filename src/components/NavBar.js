@@ -65,6 +65,16 @@ class NavBar extends React.Component {
               Projects
             </a>
             <a
+              class={this.state.currentNav == 'blog' ? 
+              'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
+              : 'navbar-item has-text-link has-text-weight-bold is-size-5' }
+              key='blog'
+              onClick={this.onLinkClick}
+              href="#blog"
+            >
+              Blog
+            </a>
+            <a
               class={this.state.currentNav == 'contact' ? 
               'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
               : 'navbar-item has-text-link has-text-weight-bold is-size-5' }

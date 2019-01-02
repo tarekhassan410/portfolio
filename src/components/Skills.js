@@ -1,8 +1,10 @@
 import React from "react";
+import Slide from "react-reveal/Slide";
 
 const Skills = ({image_path, name}) => (
-  <div className="column is-3 is-offset-1">
-    <div class="card">
+  <Slide left>
+  <div className="column is-4">
+    <div class="card is-radiusless">
     <div className='card_image'>
 
       <img src={image_path} />
@@ -12,6 +14,7 @@ const Skills = ({image_path, name}) => (
     </div>
     </div>
   </div>
+  </Slide>
 );
 
 export default Skills;
