@@ -5,6 +5,7 @@ import About from "./components/About";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Navbar from "./components/NavBar";
 
 import Slide from "react-reveal/Slide";
 
@@ -14,6 +15,11 @@ class App extends Component {
   render() {
     return (
       <div>
+
+        { /* Nav bar*/}
+        <Navbar />
+
+
         {/* hero class with Navbar */}
         <Hero />
 

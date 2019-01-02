@@ -20,7 +20,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav class="navbar is-primary is-radiusless is-fixed-top">
+      <nav class="navbar is-transparent is-radiusless is-fixed-top">
         <div class="navbar-brand">
           <div
             class="navbar-burger burger"
@@ -36,8 +36,8 @@ class NavBar extends React.Component {
           <div class="navbar-end container">
             <a
               class={this.state.currentNav == 'home' ? 
-              'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
-              : 'navbar-item has-text-link has-text-weight-bold is-size-5' }
+              'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
+              : 'navbar-item has-text-primary has-text-weight-bold is-size-6' }
               key='home'
               onClick={this.onLinkClick}
               href="#home"
@@ -46,8 +46,8 @@ class NavBar extends React.Component {
             </a>
             <a
               class={this.state.currentNav == 'about' ? 
-              'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
-              : 'navbar-item has-text-link has-text-weight-bold is-size-5' }
+              'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
+              : 'navbar-item has-text-primary has-text-weight-bold is-size-6' }
               key='about'
               onClick={this.onLinkClick}
               href="#about"
@@ -56,8 +56,8 @@ class NavBar extends React.Component {
             </a>
             <a
               class={this.state.currentNav == 'projects' ? 
-              'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
-              : 'navbar-item has-text-link has-text-weight-bold is-size-5' }
+              'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
+              : 'navbar-item has-text-primary has-text-weight-bold is-size-6' }
               key='projects'
               onClick={this.onLinkClick}
               href="#projects"
@@ -66,8 +66,8 @@ class NavBar extends React.Component {
             </a>
             <a
               class={this.state.currentNav == 'blog' ? 
-              'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
-              : 'navbar-item has-text-link has-text-weight-bold is-size-5' }
+              'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
+              : 'navbar-item has-text-primary has-text-weight-bold is-size-6' }
               key='blog'
               onClick={this.onLinkClick}
               href="#blog"
@@ -76,8 +76,8 @@ class NavBar extends React.Component {
             </a>
             <a
               class={this.state.currentNav == 'contact' ? 
-              'navbar-item has-text-link has-text-weight-bold is-size-5 is-active is-tab' 
-              : 'navbar-item has-text-link has-text-weight-bold is-size-5' }
+              'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
+              : 'navbar-item has-text-primary has-text-weight-bold is-size-6' }
               key='contact'
               onClick={this.onLinkClick}
               href="#contact"

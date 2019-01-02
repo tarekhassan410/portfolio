@@ -1,14 +1,10 @@
 import React from "react";
-import Navbar from "./NavBar";
 import Typed from "react-typed";
 
 import "../App.css";
 
 const Hero = () => (
-  <section class="hero is-large is-large-with-navbar is-bold blured-background" id="home">
-    <div class="hero-head">
-      <Navbar />
-    </div>
+  <section class="hero is-large is-large-with-navbar blured-background" id="home">
     <div class="hero-body has-text-centered">
       <div class=" section container has-text-primary">
         Hello! I am
