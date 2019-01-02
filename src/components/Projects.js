@@ -8,7 +8,7 @@ const Projects = () => (
         <div className="title is-3 has-text-centered has-text-weight-bold has-text-primary">
           Projects
         </div>
-        <div className="subtitle is-6 has-text-centered has-text-primary">
+        <div className="subtitle is-5 has-text-centered has-text-primary">
           Projects I made with React and other tools I use in development
         </div>
       </section>

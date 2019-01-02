@@ -9,7 +9,7 @@ class Contact extends React.Component {
           <div className="title is-size-3 has-text-centered has-text-weight-bold has-text-primary">
             Contact
           </div>
-          <div className="subtitle is-size-6 has-text-centered has-text-weight-bold has-text-primary">
+          <div className="subtitle is-5 has-text-centered has-text-primary">
             If you want to work with me, or just say hi :)
           </div>
           
