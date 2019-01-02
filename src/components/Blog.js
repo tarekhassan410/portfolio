@@ -3,12 +3,15 @@ import React from "react";
 const Blog = () => (
   <section className="section" id='blog'>
     <div className="container">
+    <section className="section">
+
       <div className="title is-3 has-text-centered has-text-weight-bold has-text-primary">
         Blog
       </div>
       <div className="subtitle is-5 has-text-centered has-text-primary">
         I started writing in Dev.to recently, in this section I will be sharing all new blogs.
       </div>
+      </section>
       <div className="card box is-radiusless">
         <div className="card-header">
         <div className="card-header-title title is-size-3 has-text-weight-bold has-text-primary">
