@@ -12,12 +12,20 @@ import Slide from "react-reveal/Slide";
 import "./App.css";
 
 class App extends Component {
+
+  constructor(){
+    super()
+    this.state = {
+      scrollTab : 'home'
+    }
+  }
+
   render() {
     return (
       <div>
 
         { /* Nav bar*/}
-        <Navbar />
+        <Navbar currentNav={this.state.scrollTab} />
 
 
         {/* hero class with Navbar */}
@@ -30,7 +38,7 @@ class App extends Component {
 
         {/* projects */}
         <Slide  bottom>
-          <Projects />
+          <Projects scrollEvent={() => this.handleScroll('projects')} />
         </Slide>
 
         {/* Blog */}

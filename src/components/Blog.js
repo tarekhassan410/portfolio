@@ -9,7 +9,7 @@ const Blog = () => (
         Blog
       </div>
       <div className="subtitle is-5 has-text-centered has-text-primary">
-        I started writing in Dev.to recently, in this section I will be sharing all new blogs.
+        I started writing in <a href="https://dev.to" target="_blank"> Dev.to </a> recently, in this section I will be sharing all new blogs.
       </div>
       </section>
       <div className="card box is-radiusless">

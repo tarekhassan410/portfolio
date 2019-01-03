@@ -15,8 +15,8 @@ class Contact extends React.Component {
           
             <div class="field">
               <p class="control buttons is-centered">
-                <a href="mailto:tarekhassan410@gmail.com?Subject=Hello" class="button is-medium is-success is-radiusless">
-                  Message now
+                <a href="mailto:tarekhassan410@gmail.com?Subject=Hello" class="button is-large is-primary is-radiusless">
+                  Send message
                 </a>
               </p>
             </div>

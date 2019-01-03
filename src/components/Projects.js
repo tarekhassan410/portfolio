@@ -1,8 +1,8 @@
 import React from "react";
 import Project from "./project";
 
-const Projects = () => (
-  <section className="section" id="projects">
+const Projects = (props) => (
+  <section className="section" id="projects" onScroll={() => props.scrollEvent('projects')}>
     <div className="container">
       <section className="section">
         <div className="title is-3 has-text-centered has-text-weight-bold has-text-primary">

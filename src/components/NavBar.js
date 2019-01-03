@@ -4,10 +4,10 @@ import "../App.css";
 class NavBar extends React.Component {
 
 
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
     this.state = {
-      currentNav: 'home'
+      currentNav: this.props.currentNav
     }
     this.onLinkClick = this.onLinkClick.bind(this)
   }
@@ -20,7 +20,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav class="navbar is-transparent is-radiusless is-fixed-top">
+      <nav class="navbar container is-transparent is-radiusless is-fixed-top">
         <div class="navbar-brand">
           <div
             class="navbar-burger burger"
@@ -33,12 +33,13 @@ class NavBar extends React.Component {
         </div>
 
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-end container">
+          <div class="navbar-end">
             <a
               class={this.state.currentNav == 'home' ? 
               'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
               : 'navbar-item has-text-primary has-text-weight-bold is-size-6' }
               key='home'
+              ref='elementToFire'
               onClick={this.onLinkClick}
               href="#home"
             >

@@ -6,16 +6,16 @@ const About = () => (
     {/* section heading */}
     <div class="section-heading">
       <h3 class="title is-3 has-text-centered has-text-weight-bold has-text-primary" style={{marginTop: '1em' }}>
-        About Me
+        About
       </h3>
       <h4 class="subtitle is-5 has-text-centered has-text-primary">
-        React JS developer
+        A guy who knows few languages, but loves React
       </h4>
       <div class="container">
         <div className="has-text-primary">
-          Web developer with background in PHP. Recntly I picked React js to learn because of its popularity. But I fall in love with its simplicity and capabilities more than any 
+          Web developer with background in PHP. Learned React js because of its popularity then I fall in love with its simplicity and capabilities more than any 
           other framework or language I used. Here you can find my blog where I share articles I write on Dev.to, projects I worked on or currently developing and a contact form if
-          like to work with me :) Below are the technologies I usually work with 
+          like to work with me :) Below are the technologies I usually work with <i class="fas fa-arrow-down"></i> <i class="fas fa-arrow-down"></i> 
         </div>
 
         <div className="section columns is-multiline">
