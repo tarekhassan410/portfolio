@@ -20,7 +20,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav class="navbar container is-transparent is-radiusless is-fixed-top">
+      <nav class="navbar is-radiusless is-fixed-top">
         <div class="navbar-brand">
           <div
             class="navbar-burger burger"
@@ -33,7 +33,7 @@ class NavBar extends React.Component {
         </div>
 
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-end">
+          <div class="navbar-end container">
             <a
               class={this.state.currentNav == 'home' ? 
               'navbar-item has-text-primary has-text-weight-bold is-size-6 is-active is-tab' 
