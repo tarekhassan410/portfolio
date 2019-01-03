@@ -2,7 +2,7 @@ import React from "react";
 import Slide from "react-reveal/Slide";
 
 const Skills = ({image_path, name}) => (
-  <Slide left>
+  <Slide right>
   <div className="column is-4">
     <div class="card  is-paddingless is-radiusless">
     <div className='is-paddingless is-radiusless card_image'>
