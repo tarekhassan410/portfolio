@@ -13,7 +13,7 @@ const About = () => (
       </h4>
       <div class="container">
         <div className="has-text-primary">
-          Web developer with background in PHP. Learned React js because of its popularity then I fall in love with its simplicity and capabilities more than any 
+          Web developer with background in PHP. Learned React js because of its popularity then I fell in love with its simplicity and capabilities more than any 
           other framework or language I used. Here you can find my blog where I share articles I write on Dev.to, projects I worked on or currently developing and a contact form if
           like to work with me :) Below are the technologies I usually work with <i class="fas fa-arrow-down"></i> <i class="fas fa-arrow-down"></i> 
         </div>
